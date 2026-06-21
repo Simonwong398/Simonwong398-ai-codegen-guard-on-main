@@ -1,0 +1,6 @@
+{
+  "name": "Project Guard AI",
+  "description": "An interactive architectural governance tool to define, visualize, and enforce strict module boundaries, dependency coupling, AST auditing, and file length constraints.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

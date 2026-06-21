@@ -1,0 +1,21 @@
+ProjectGuard AI Software License Agreement
+
+Please read this License Agreement carefully before purchasing, downloading, or using the AI Codegen Guard tool. By acquiring a seat on the Capafy Marketplace or accessing this repository, you agree to be bound by the terms and conditions outlined below:
+
+1. GRANT OF LICENSE
+ProjectGuard AI ("Licensor") grants you a non-exclusive, non-transferable, revocable license to install, customize, and run AI Codegen Guard ("Software") solely for personal development or inner-organization codebase management, in accordance with the transaction tier purchased (Single Seat, Team License, or Enterprise Tier).
+
+2. RESTRICTIONS
+You shall not:
+* Reverse-engineer, decompile, or disassemble the compile-ready AST parsing mechanism or visual dashboard elements of the Software.
+* Distribute, lease, sublicense, or resell modified derivatives of the Software as an independent, competing marketplace offering.
+* Bundle, share, or redistribute the Software's intellectual assets on external public platforms without a written enterprise endorsement.
+
+3. WORKSPACE DATA ASSURANCE
+The Software does not systematically capture, store, export, or transmit any raw workspace source code files processed. All code safety audits run directly within local sandboxes or browser render states.
+
+4. DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ProjectGuard AI
+All Rights Reserved.
