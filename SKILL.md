@@ -1,3 +1,8 @@
+---
+name: Capafy | AI Code Splitter & Drift Guard
+description: An AST architectural governance tool to enforce strict module boundaries, visualize line bloat, and protect your codebase from AI-generative degradation.
+---
+
 # ProjectGuard AI: Architectural Governance & AST Auditing Engine
 
 `ProjectGuard AI` is an enterprise-grade architectural compliance validator and AST boundary guard designed specifically to prevent code degeneration (entropy) in scalable systems. This skill documents the core engine schema and RESTful hooks.
