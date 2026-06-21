@@ -1,5 +1,5 @@
 ---
-name: Capafy | AI Code Splitter & Drift Guard
+name: ai-code-splitter-drift-guard
 description: An AST architectural governance tool to enforce strict module boundaries, visualize line bloat, and protect your codebase from AI-generative degradation.
 ---
 
