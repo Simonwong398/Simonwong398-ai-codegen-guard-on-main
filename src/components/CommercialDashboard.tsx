@@ -35,7 +35,7 @@ export const CommercialDashboard: React.FC<CommercialDashboardProps> = ({ t, lan
   const serverCost = 0; // Purely serverless sandbox
   const netProfit = grossRevenue - serverCost;
 
-  const copyCapafyIntegrationConfig = () => {
+  const copyMarketplaceIntegrationConfig = () => {
     const config = `{
   "skill_name": "AI Codegen Guard",
   "version": "1.0.0",
@@ -169,7 +169,7 @@ export const CommercialDashboard: React.FC<CommercialDashboardProps> = ({ t, lan
         {/* Dynamic Calculator & Config segment */}
         <div className="space-y-6">
           
-          {/* Capafy Revenue Estimator Slider */}
+          {/* Revenue Estimator Slider */}
           <div className="bg-white border border-slate-200 rounded-xl p-6 shadow-xs space-y-5">
             <h3 className="font-sans font-semibold text-slate-900 pb-2 border-b flex items-center gap-1.5 text-sm">
               <TrendingUp className="w-4.5 h-4.5 text-emerald-600" />
@@ -252,7 +252,7 @@ export const CommercialDashboard: React.FC<CommercialDashboardProps> = ({ t, lan
 
             <div className="pt-4 flex justify-end">
               <button
-                onClick={copyCapafyIntegrationConfig}
+                onClick={copyMarketplaceIntegrationConfig}
                 className="flex items-center gap-1.5 px-3 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-xs font-semibold cursor-pointer transition-colors w-full justify-center"
               >
                 {copiedSkill ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
