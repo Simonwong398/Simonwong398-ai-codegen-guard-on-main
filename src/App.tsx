@@ -557,7 +557,7 @@ export async function fetchHealth(): Promise<boolean> {
                   <Sparkles className="w-5 h-5 text-indigo-400" />
                 </div>
                 <h3 className="text-base font-bold text-white tracking-tight animate-pulse">
-                  {lang.includes('zh') ? '💎 Capafy 变现与订阅隔离沙盒' : '💎 Capafy Monetization & Licensing Sandbox'}
+                  {lang.includes('zh') ? '💎 商业变现与订阅隔离沙盒' : '💎 Pro Monetization & Licensing Sandbox'}
                 </h3>
                 <p className="text-xs text-slate-400 leading-relaxed">
                   {lang.includes('zh') 
@@ -634,7 +634,7 @@ export async function fetchHealth(): Promise<boolean> {
                         {lang.includes('zh') ? '3. 享有正版授权 / 订阅激活 👑' : '3. Pro Subscription / License Activated 👑'}
                       </h4>
                       <p className="text-[10px] text-slate-400 mt-1 leading-snug">
-                        {lang.includes('zh') ? '通过秘钥或者在 Capafy 正式完成订阅购买后的全功能持续保障模式。' : 'Completed subscriber state. Permanent active status.'}
+                        {lang.includes('zh') ? '通过秘钥或者在正式完成订阅购买后的全功能持续保障模式。' : 'Completed subscriber state. Permanent active status.'}
                       </p>
                     </div>
                     {premiumStatus === 'premium' && <span className="w-2.5 h-2.5 rounded-full bg-amber-500 shadow-md shadow-amber-500" />}
