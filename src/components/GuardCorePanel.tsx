@@ -290,7 +290,7 @@ export const GuardCorePanel: React.FC<GuardCorePanelProps> = ({
                 </h4>
                 <p className="text-[11px] text-slate-300 max-w-sm mx-auto leading-relaxed">
                   {isZh 
-                    ? '一键 AST 无损分离、物理分仓代码推荐、以及容器逆熵回滚哨齿等自动化机制专属于 Capafy 专业版。' 
+                    ? '一键 AST 无损分离、物理分仓代码推荐、以及容器逆熵回滚哨齿等自动化机制专属于 ProjectGuard AI 专业版。' 
                     : 'Interactive lossless AST file restructuring recommendations and custom code-splitting playbooks require a Premium License.'}
                 </p>
               </div>
@@ -307,7 +307,7 @@ export const GuardCorePanel: React.FC<GuardCorePanelProps> = ({
                   onClick={() => window.open('https://ai.studio/build', '_blank')}
                   className="px-3.5 py-1.5 border border-slate-705 hover:bg-slate-800 text-slate-300 rounded-lg text-xs transition duration-150 cursor-pointer w-full sm:w-auto"
                 >
-                  {isZh ? '了解 Capafy 上架设置' : 'Learn Capafy Settings'}
+                  {isZh ? '了解应用上架设置' : 'Learn Store Settings'}
                 </button>
               </div>
             </div>

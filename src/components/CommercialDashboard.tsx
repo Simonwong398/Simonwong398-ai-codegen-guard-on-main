@@ -26,8 +26,8 @@ export const CommercialDashboard: React.FC<CommercialDashboardProps> = ({ t, lan
     netProfitLabel: isChinese ? "预计净利润" : "Predicted Monthly Profit",
     monthlySuffix: isChinese ? "/ 月" : "/ mo",
     subscribersSuffix: isChinese ? " 人" : " users",
-    specPackageTemplate: isChinese ? "Capafy Skill 规范封包模板" : "Capafy Skill Encapsulation Template",
-    exportDesc: isChinese ? "您可以一键获取闭源发布包的标准描述元 JSON，将其粘贴到您的 Capafy Skill Publisher 管理面板中：" : "Export self-contained metadata JSON to easily submit and publish your closed-source skill in the Capafy Catalog:"
+    specPackageTemplate: isChinese ? "独立 Skill 规范封包模板" : "Pro Skill Encapsulation Template",
+    exportDesc: isChinese ? "您可以一键获取闭源发布包的标准描述元 JSON，将其粘贴到您的发布商管理面板中：" : "Export self-contained metadata JSON to easily submit and publish your closed-source skill in the marketplace catalog:"
   };
 
   // Profit calculations
