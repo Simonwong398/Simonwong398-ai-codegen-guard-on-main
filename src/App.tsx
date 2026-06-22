@@ -27,25 +27,6 @@ export default function App() {
   const [premiumStatus, setPremiumStatus] = useState<'trial' | 'premium' | 'expired'>('trial');
   const [trialDaysLeft, setTrialDaysLeft] = useState<number>(3);
   const [isLicensingModalOpen, setIsLicensingModalOpen] = useState<boolean>(false);
-  const [licenseKeyInput, setLicenseKeyInput] = useState<string>('');
-  const [licenseInputError, setLicenseInputError] = useState<string>('');
-  const [licenseActiveSuccess, setLicenseActiveSuccess] = useState<boolean>(false);
-
-  const handleActivateLicense = (keyToVerify: string) => {
-    if (keyToVerify.toUpperCase().trim() === 'PRO-AST-GUARD-2026') {
-      setPremiumStatus('premium');
-      setLicenseActiveSuccess(true);
-      setLicenseInputError('');
-      setTimeout(() => {
-        setLicenseActiveSuccess(false);
-        setIsLicensingModalOpen(false);
-      }, 1500);
-    } else {
-      setLicenseInputError(lang.includes('zh') 
-        ? '授权秘钥无效。请输入 PRO-AST-GUARD-2026 进行激活模拟。' 
-        : 'Invalid activation key. Please enter PRO-AST-GUARD-2026 to simulate successful upgrade.');
-    }
-  };
 
   // AI Drift simulation triggers for the Simulation Lab
   const handleSimulateDrift = (type: 'coupling' | 'bloat' | 'pattern' | 'chaos' | 'clean') => {
@@ -642,52 +623,22 @@ export async function fetchHealth(): Promise<boolean> {
                 </div>
               </div>
 
-              {/* Enter License Key form */}
-              <form
-                onSubmit={(e) => {
-                  e.preventDefault();
-                  handleActivateLicense(licenseKeyInput);
-                }}
-                className="space-y-2 pt-2.5 border-t border-slate-800"
-              >
-                <label className="text-[10px] font-bold text-slate-550 uppercase tracking-wide font-mono block">
-                  {lang.includes('zh') ? '企业授权验证 (PRO License Key)' : 'Enterprise Activation License Key'}
-                </label>
-                <div className="flex gap-2">
-                  <input
-                    type="text"
-                    value={licenseKeyInput}
-                    onChange={(e) => {
-                      setLicenseKeyInput(e.target.value);
-                      setLicenseInputError('');
-                    }}
-                    placeholder="e.g. PRO-AST-GUARD-2026"
-                    className="bg-slate-950 border border-slate-800 rounded-lg px-3 py-2 text-xs font-mono text-white placeholder-slate-600 focus:outline-none focus:ring-1 focus:ring-indigo-500 grow"
-                  />
-                  <button
-                    type="submit"
-                    className="bg-indigo-650 hover:bg-indigo-600 active:bg-indigo-700 text-white font-bold rounded-lg px-3.5 py-2 text-xs transition duration-150 cursor-pointer whitespace-nowrap"
-                  >
-                    {lang.includes('zh') ? '验证' : 'Activate'}
-                  </button>
-                </div>
-
-                {licenseInputError && (
-                  <p className="text-[10.5px] font-bold text-red-400 font-sans">{licenseInputError}</p>
-                )}
-                {licenseActiveSuccess && (
-                  <p className="text-[10.5px] font-bold text-emerald-400 font-sans">
-                    🎉 {lang.includes('zh') ? '正版授权激活成功！高级重构引擎及回退守护为您长期解锁。' : 'Enterprise license validated successfully! Enterprise access enabled.'}
-                  </p>
-                )}
-
-                <div className="bg-slate-950 border border-slate-850 rounded-lg p-2.5 text-[10px] text-slate-500 font-mono leading-relaxed">
-                  💡 {lang.includes('zh') ? '测试激活密钥: ' : 'Sandbox Testing Key: '}
-                  <span className="text-indigo-400 font-bold select-all bg-indigo-950/40 px-1 py-0.5 rounded">
-                    PRO-AST-GUARD-2026
+              {/* Profile Synchronization Note */}
+              <div className="pt-4 border-t border-slate-850 space-y-3">
+                <div className="flex items-center gap-2">
+                  <span className="w-2 h-2 rounded-full bg-indigo-500 animate-pulse animate-duration-1000" />
+                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider font-mono">
+                    {lang.includes('zh') ? '平台订阅同步状态' : 'Platform Subscription Sync'}
                   </span>
                 </div>
-              </form>
+                <div className="p-3 bg-slate-950 border border-slate-850 rounded-xl text-xs space-y-1">
+                  <p className="text-slate-400 leading-relaxed text-[11px]">
+                    {lang.includes('zh')
+                      ? '本产品的专业版（PRO/Enterprise）特权由平台统一配置。当拥有相应的订阅方案时，高级 AST 重构与防退化守护功能将自动为您的账户解锁，无需手动输入任何验证密钥。您的特权等级与当前在该平台环境中的计费状态无缝、完全一致，从而保证交易流程的安全合规。'
+                      : 'All PRO/Enterprise access levels are directly bound to your official platform subscription package and active billing plan. High-tier features are automatically unlocked with no manual key required, ensuring perfect alignment with the safe billing configuration of the platform.'}
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         )}
