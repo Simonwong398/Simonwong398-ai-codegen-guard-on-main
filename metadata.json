@@ -1,6 +1,6 @@
 {
-  "name": "Project Guard AI",
-  "description": "An interactive architectural governance tool to define, visualize, and enforce strict module boundaries, dependency coupling, AST auditing, and file length constraints.",
+  "name": "ProjectGuard AI | Code Splitter & Drift Guard",
+  "description": "An interactive AST architectural governance tool to enforce strict module boundaries, visualize line bloat, and protect your codebase from AI-generative degradation.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

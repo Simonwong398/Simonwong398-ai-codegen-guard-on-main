@@ -33,4 +33,4 @@ We maintain a transparent structure. Developers and operations officers are enco
 
 AST.Guard acts as a local static analysis instrument. We are not liable for security breaches resulting from malware in the user's local operating system environment, compromises of the user's custom API key vaults, or man-in-the-middle exploits occurring through unsafe VPN configurations or unauthorized model proxies. Always keep your API keys stored securely in safe system-level environment variables only.
 
-For specialized compliance questions, enterprise deployments, or custom self-contained Docker implementations, please contact the product success desk under your purchased Capafy license seat index.
+For specialized compliance questions, enterprise deployments, or custom self-contained Docker implementations, please contact the product success desk under your purchased product license seat index.
