@@ -49,7 +49,7 @@ AST.Guard operates through an elegant, multi-tier protection suite:
 
 ## 💼 High Passive Income Potential (Why Premium Developers Pay)
 
-AST.Guard is engineered as a zero-friction, highly monetizable tool designed to be sold as a specialized workspace extension or Git helper skill on developer directories like the Capafy marketplace:
+AST.Guard is engineered as a zero-friction, highly monetizable tool designed to be sold as a specialized workspace extension or Git helper skill on developer directories or marketplaces:
 
 * **Zero Infrastructure Overhead ($0.00 Running Cost)**: Built to run 100% on the client or within the local sandbox runtime. There are no backend servers, database pipelines, or subscription hosting costs to absorb. Your margins upon purchase or license renewal are a perfect **100% net profit**.
 * **Essential Safeguard for AI Pipelines**: AI-driven software development is expanding exponentially. Individual developers, startup studios, and agency teams leveraging auto-coders require automated guardrails to prevent their systems from collapsing into unmaintainable spaghetti.

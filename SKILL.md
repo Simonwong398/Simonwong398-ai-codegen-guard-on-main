@@ -81,4 +81,4 @@ In CI/CD modes, any regression (entropy increase such as a circular import or co
 
 - **Zero Serving Overhead (零服务器托管成本)**: Pure static parsing algorithms reside comfortably on the client-side sandbox. Serving cost is exactly $0.00. Profit margin stays 100%.
 - **Anti-Conversation Slippage (防多态记忆退化机制)**: Strict [STRICT_BORDER] directives coerce downstream generation models (GPT, Claude) into deep structured compliance bounds. No more memory falloff over long chats.
-- **Zero Invasiveness (零侵入性极速探针)**: Requires absolutely no alterations to existing server pipelines or complex Docker configurations. Simple plug-and-play validation. Can be published on platform marketplaces like Capafy with ease.
+- **Zero Invasiveness (零侵入性极速探针)**: Requires absolutely no alterations to existing server pipelines or complex Docker configurations. Simple plug-and-play validation. Can be published on platform marketplaces with ease.
