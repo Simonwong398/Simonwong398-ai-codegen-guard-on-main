@@ -2,13 +2,13 @@ import { TranslationSet } from '../../types/translations';
 
 export const de: TranslationSet = {
   appTitle: "AI Codegen Guard",
-  appBadge: "Capafy Flaggschiff",
+  appBadge: "ProjectGuard Flaggschiff",
   appSubtitle: "Schlanke Architektur-Verträge & statischer Abhängigkeits-Schutz für anspruchsvolle Frontend-Projekte",
   probeOnline: "AST.Guard Aktiver Sensor Online",
   introHeader: "AI Codegen Guard (Statische Entwicklungs-Wache)",
   introSub: "Überwachen und Blockieren von Architektur-Degradation in Echtzeit",
   introDesc: "LLM-Modelle tendieren bei komplexeren Konversationen zu 'polymorphem Gedächtnisverlust' und packen Code rücksichtslos in einzelne Riesen-Dateien. Dieser Guard bietet clientseitige AST-Sicherheitsanalyse ohne Server-Overhead.",
-  introFeature1: "100% lokale statische Analyse, exakt $0.00 Serverkosten. Optimal für Capafy!",
+  introFeature1: "100% lokale statische Analyse, exakt $0.00 Serverkosten. Optimaler Schutz!",
   introFeature2: "Starre Code-Substrate (.types / .utils) + Elastische Framework-Erkennung.",
   tabEditor: "Sandbox",
   tabGuard: "AST Wächter",
@@ -59,7 +59,7 @@ export const de: TranslationSet = {
   stateHistoryList: "Sicherungshistorie & Historische Iterationen",
   stateNoHistory: "Noch keine Sicherungspunkte verfügbar.",
   stateRollbackBtn: "Diesen Zustand wiederherstellen",
-  commHeader: "💎 Monetarisierung & High-Margin Capafy Skillgeschäft",
+  commHeader: "💎 Monetarisierung & High-Margin Skillgeschäft",
   commSub: "ProjectGuard AI ist die perfekte Ergänzung für den Capafy Store. Sie löst das drängende Problem chaotischen AI-Generats bei minimalen Server-Betriebskosten.",
   commAnchorCost: "Grenzkosten",
   commAnchorCostDesc: "Arbeitet zu 100% lokal im Client. Keine teure API-Infrastruktur. Reiner Gewinn.",
@@ -81,7 +81,7 @@ export const de: TranslationSet = {
   commCalcServerCost: "Server-Betriebskosten",
   commCalcNetProfit: "Erwarteter Nettogewinn",
   commCalcDisclaimer: "* Da die Wächter-Metriken vollständig auf dem Client-Gerät berechnet werden, betragen Ihre Betriebskosten exakt 0,00 USD.",
-  commExportBtn: "Capafy Skill-Spezifikation exportieren",
+  commExportBtn: "Skill-Spezifikation exportieren",
   commExportCopied: "Spezifikations-JSON erfolgreich kopiert",
   footerHeading: "Was ist ein statischer Architektur-Wächter?",
   footerDesc: "Er regelt die zulässigen Abhängigkeitsgrenzen eines Projekts. Bei AI-gestützter Entwicklung fängt er Qualitätsminderung sofort ab und liefert physikalische Splitting-Konzepte."

@@ -2,13 +2,13 @@ import { TranslationSet } from '../../types/translations';
 
 export const pt: TranslationSet = {
   appTitle: "AI Codegen Guard",
-  appBadge: "Capafy Edição Premium",
+  appBadge: "ProjectGuard Edição Premium",
   appSubtitle: "Contrato arquitetural leve e guarda estática de acoplamento para fluxos de desenvolvimento com inteligência artificial",
   probeOnline: "Sensor Inteligente AST.Guard Online",
   introHeader: "AI Codegen Guard (Guarda Estática de Código com IA)",
   introSub: "Monitore e bloqueie desvios arquiteturais e acoplamento ilegal em tempo real",
   introDesc: "Modelos de linguagem (LLMs) tendem a apresentar 'degradação poligonal de memória' em sessões longas, empilhando código em um único arquivo de forma desordenada. Esta ferramenta resolve isso sem custo de servidores de nuvem.",
-  introFeature1: "Processamento 100% livre no navegador do usuário, custos marginais de $0.00. Perfeito para o Capafy!",
+  introFeature1: "Processamento 100% livre no navegador do usuário, custos marginais de $0.00. Experiência perfeita!",
   introFeature2: "Bases rígidas de dados (.types / .utils) + Detecção flexível e elástica de frameworks.",
   tabEditor: "Área de Código",
   tabGuard: "Filtro de AST",
@@ -59,7 +59,7 @@ export const pt: TranslationSet = {
   stateHistoryList: "Linha do Tempo das Modificações",
   stateNoHistory: "Nenhum ponto anterior arquivado no momento.",
   stateRollbackBtn: "Retornar para esta versão",
-  commHeader: "💎 Monetização Premium no Capafy Store e Ativo de Código Privado",
+  commHeader: "💎 Monetização Premium e Ativo de Código Privado",
   commSub: "ProjectGuard AI opera de forma autocontida sem requisições pesadas em servidores cloud, fornecendo taxa bruta de lucro total de 100%.",
   commAnchorCost: "Custo Marginal de Usuário",
   commAnchorCostDesc: "Funciona nativamente no browser do cliente. Custo de servidores é zero.",
@@ -81,7 +81,7 @@ export const pt: TranslationSet = {
   commCalcServerCost: "Custos do Servidor",
   commCalcNetProfit: "Lucro Líquido Previsto",
   commCalcDisclaimer: "* Como a validação ocorre 100% local, seu lucro marginal é preservado em sua totalidade.",
-  commExportBtn: "Exportar JSON para o Dashboard do Capafy",
+  commExportBtn: "Exportar JSON para o Dashboard",
   commExportCopied: "JSON copiado com sucesso",
   footerHeading: "O que é um Contrato de Arquitetura Estática?",
   footerDesc: "É uma regulamentação que protege a estrutura de pastas e dados. Na geração ágil de códigos assistida por IA, identifica falhas e reconduz a caminhos limpos."
