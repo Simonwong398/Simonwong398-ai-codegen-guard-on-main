@@ -538,12 +538,12 @@ export async function fetchHealth(): Promise<boolean> {
                   <Sparkles className="w-5 h-5 text-indigo-400" />
                 </div>
                 <h3 className="text-base font-bold text-white tracking-tight animate-pulse">
-                  {lang.includes('zh') ? '💎 商业变现与订阅隔离沙盒' : '💎 Pro Monetization & Licensing Sandbox'}
+                  {lang.includes('zh') ? '💎 ProjectGuard AI 运行状态沙盒' : '💎 ProjectGuard AI State Simulator'}
                 </h3>
                 <p className="text-xs text-slate-400 leading-relaxed">
                   {lang.includes('zh') 
-                    ? '在此体验探针产品在“订阅过期锁定”与“高级试用激活”等不同商用阶段的隔离状态形态。设置此隔离以便直接上传并赚取被动收入。' 
-                    : 'Configure trial limits and simulation states here to preview how different billing/licensing levels isolate pro features.'}
+                    ? '在此体验探针产品在“试用限时状态”与“订阅激活”等不同运行生命周期的状态形态，以便验证系统的防漏防护能力。' 
+                    : 'Experience and test how AST guarding and anti-entropy rules adapt to different trial/subscription states.'}
                 </p>
               </div>
 
@@ -612,10 +612,10 @@ export async function fetchHealth(): Promise<boolean> {
                   >
                     <div>
                       <h4 className="text-xs font-bold font-sans">
-                        {lang.includes('zh') ? '3. 享有正版授权 / 订阅激活 👑' : '3. Pro Subscription / License Activated 👑'}
+                        {lang.includes('zh') ? '3. 享有订阅激活状态 👑' : '3. Subscription Activated 👑'}
                       </h4>
                       <p className="text-[10px] text-slate-400 mt-1 leading-snug">
-                        {lang.includes('zh') ? '通过秘钥或者在正式完成订阅购买后的全功能持续保障模式。' : 'Completed subscriber state. Permanent active status.'}
+                        {lang.includes('zh') ? '在您正式完成平台订阅后的全功能持续保障及防退化模式。' : 'Active after completing official platform subscription packages.'}
                       </p>
                     </div>
                     {premiumStatus === 'premium' && <span className="w-2.5 h-2.5 rounded-full bg-amber-500 shadow-md shadow-amber-500" />}
